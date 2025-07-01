@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fencing Helper</string>
+    <string name="fencing_time_live">Tournament</string>
+    <string name="memberships">Memberships\n</string>
+</resources>

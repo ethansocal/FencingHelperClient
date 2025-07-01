@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FencingHelper.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>E4BDDED4765CF9CAD9E71FABA85050A65EE8FD9F</string>
+				<key>dateExpires</key>
+				<string>9/7/25</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>66UCK8Z475.com.eten.FencingTournamentHelper</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>66UCK8Z475</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>FencingHelper.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>9fc46309-23e2-4a60-8d59-adf7c172d3fd</string>
+				<key>dateExpires</key>
+				<string>9/7/25</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.eten.FencingTournamentHelper</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>66UCK8Z475</string>
+				<key>name</key>
+				<string>Min Jeong Henry</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

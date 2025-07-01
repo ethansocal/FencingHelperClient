@@ -1,0 +1,99 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "246a827409328a22e5ff742b2a7cf152",
+    "entities": [
+      {
+        "tableName": "Membership",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`usfaId` INTEGER NOT NULL, `displayOrder` INTEGER NOT NULL, `name` TEXT NOT NULL, `year` INTEGER, `country` TEXT NOT NULL, `countryIOC` TEXT NOT NULL, `club` TEXT, `clubId` INTEGER, `clubSymbol` TEXT, `epee` TEXT NOT NULL, `foil` TEXT NOT NULL, `saber` TEXT NOT NULL, `lastRefreshed` INTEGER NOT NULL, PRIMARY KEY(`usfaId`))",
+        "fields": [
+          {
+            "fieldPath": "usfaId",
+            "columnName": "usfaId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "displayOrder",
+            "columnName": "displayOrder",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "year",
+            "columnName": "year",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "country",
+            "columnName": "country",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "countryIOC",
+            "columnName": "countryIOC",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "club",
+            "columnName": "club",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "clubId",
+            "columnName": "clubId",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "clubSymbol",
+            "columnName": "clubSymbol",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "epee",
+            "columnName": "epee",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "foil",
+            "columnName": "foil",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "saber",
+            "columnName": "saber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastRefreshed",
+            "columnName": "lastRefreshed",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "usfaId"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '246a827409328a22e5ff742b2a7cf152')"
+    ]
+  }
+}

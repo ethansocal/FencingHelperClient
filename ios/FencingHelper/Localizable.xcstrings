@@ -1,0 +1,429 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "shouldTranslate" : false
+    },
+    " - %@" : {
+      "shouldTranslate" : false
+    },
+    "?" : {
+      "shouldTranslate" : false
+    },
+    "%@" : {
+      "shouldTranslate" : false
+    },
+    "%@ - %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ - %2$@"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%@, %@, %@ - %@, %@ v %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@, %3$@ - %4$@, %5$@ v %6$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "shouldTranslate" : false
+    },
+    "%lld absent" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ausente"
+          }
+        }
+      }
+    },
+    "%lld checked in" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld comprobado en"
+          }
+        }
+      }
+    },
+    "%lld Fencers" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Fencer"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld Fencers"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Tirador"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Tiradores"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld fencers competing in this event" : {
+
+    },
+    "%lld scratched" : {
+
+    },
+    "%lld." : {
+      "shouldTranslate" : false
+    },
+    "About" : {
+
+    },
+    "Absent" : {
+
+    },
+    "Add membership" : {
+
+    },
+    "Add Membership" : {
+
+    },
+    "Add Memberships" : {
+
+    },
+    "Adding memberships gives you a replica of your card for easy scanning, plus other information." : {
+
+    },
+    "Adding someone to your memberships makes importing videos easier!" : {
+
+    },
+    "Advanced" : {
+
+    },
+    "Advanced Search" : {
+
+    },
+    "Bout List" : {
+
+    },
+    "Bronze" : {
+
+    },
+    "Certain Promotion" : {
+
+    },
+    "Checked In" : {
+
+    },
+    "Choose bout" : {
+
+    },
+    "Clicking a bout marks the bout as completed or record a score." : {
+
+    },
+    "Clicking Bouts" : {
+
+    },
+    "Club(s)" : {
+
+    },
+    "Country" : {
+
+    },
+    "Debug" : {
+
+    },
+    "Division" : {
+
+    },
+    "Earned" : {
+
+    },
+    "Edit" : {
+
+    },
+    "Edit Memberships" : {
+
+    },
+    "Eliminated" : {
+
+    },
+    "Enter a name in the search bar" : {
+
+    },
+    "Epee" : {
+
+    },
+    "Error message: %@" : {
+
+    },
+    "Fencers" : {
+
+    },
+    "Fencing Videos" : {
+
+    },
+    "FencingTracker" : {
+
+    },
+    "Foil" : {
+
+    },
+    "Format" : {
+
+    },
+    "Gold" : {
+
+    },
+    "Hide Byes" : {
+
+    },
+    "If you are looking for the club, country, division, or other information about a fencer, please tap their name. This will expand their information. This also shows the next match in the pool results." : {
+
+    },
+    "Import" : {
+
+    },
+    "Import recordings" : {
+
+    },
+    "Ind" : {
+
+    },
+    "Left Fencer" : {
+
+    },
+    "Left person wasn't found" : {
+
+    },
+    "Left Won" : {
+
+    },
+    "Likely Elimination" : {
+
+    },
+    "Likely Promotion" : {
+
+    },
+    "Loading..." : {
+
+    },
+    "M" : {
+      "comment" : "pool match count"
+    },
+    "Mark the checkbox for the videos that are of fencing" : {
+
+    },
+    "Medal Counts" : {
+
+    },
+    "Medals" : {
+
+    },
+    "Member #: %@" : {
+
+    },
+    "Memberships" : {
+
+    },
+    "Name" : {
+
+    },
+    "Next match: " : {
+
+    },
+    "No fencers found" : {
+
+    },
+    "No pool results found" : {
+
+    },
+    "No results found" : {
+
+    },
+    "No seedings found" : {
+
+    },
+    "No videos found!" : {
+
+    },
+    "None" : {
+
+    },
+    "Not Fencing Videos" : {
+
+    },
+    "People in Imported Videos" : {
+
+    },
+    "Place" : {
+
+    },
+    "Pool #%lld" : {
+
+    },
+    "Pool Fencers" : {
+
+    },
+    "Pool Grid" : {
+
+    },
+    "Pool Results" : {
+
+    },
+    "Pool Stats" : {
+
+    },
+    "Pools" : {
+
+    },
+    "Possible Elimination" : {
+
+    },
+    "Possible Promotion" : {
+
+    },
+    "Qualified For" : {
+
+    },
+    "Real Data" : {
+
+    },
+    "Record" : {
+
+    },
+    "Recordings" : {
+
+    },
+    "Results" : {
+
+    },
+    "Retry" : {
+
+    },
+    "Right Fencer" : {
+
+    },
+    "Right person wasn't found" : {
+
+    },
+    "Right Won" : {
+
+    },
+    "Saber" : {
+
+    },
+    "Save" : {
+
+    },
+    "Scratched" : {
+
+    },
+    "Seed" : {
+
+    },
+    "Seeding" : {
+
+    },
+    "Silver" : {
+
+    },
+    "Sorry, something went wrong fetching the data." : {
+
+    },
+    "Sorry, we don't recognize this yet." : {
+
+    },
+    "Status" : {
+
+    },
+    "Strip Assignments" : {
+
+    },
+    "Strips" : {
+
+    },
+    "Tableau" : {
+
+    },
+    "Thank you for downloading FencingHelper! We hope it assists you in your fencing. Please let Ethan Henry know about any feedback you may have!" : {
+
+    },
+    "Total" : {
+
+    },
+    "Tournament" : {
+
+    },
+    "Tournaments" : {
+
+    },
+    "TR" : {
+
+    },
+    "Track Everyone's Scores" : {
+
+    },
+    "Tracking a fencer will highlight their bouts and allow you to enter scores." : {
+
+    },
+    "Tracking Fencer" : {
+
+    },
+    "Tracking Fencers" : {
+
+    },
+    "TS" : {
+
+    },
+    "Type to filter" : {
+
+    },
+    "Usually After:" : {
+
+    },
+    "V" : {
+      "comment" : "pool win count"
+    },
+    "V / M" : {
+
+    },
+    "Website" : {
+
+    },
+    "You have no recordings!" : {
+
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Icon from "../assets/icon.png";
+import Screenshot1 from "../assets/screenshot1.jpeg";
+import Screenshot2 from "../assets/screenshot2.jpeg";
+import Screenshot3 from "../assets/screenshot3.jpeg";
+import Screenshot4 from "../assets/screenshot4.jpeg";
+import Screenshot5 from "../assets/screenshot5.jpeg";
+import Screenshot6 from "../assets/screenshot6.jpeg";
+import DownloadOnAppStore from "../assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+    <div class="bg-white">
+        <header class="absolute inset-x-0 top-0 z-50">
+            <nav
+                class="flex items-center justify-between p-6 lg:px-8"
+                aria-label="Global"
+            >
+                <div class="flex lg:flex-1">
+                    <a
+                        href="#"
+                        class="-m-1.5 p-1.5 flex flex-row gap-3 place-items-center"
+                    >
+                        <img
+                            class="h-8 w-auto rounded-sm"
+                            src={Icon.src}
+                            alt=""
+                        />
+                        <span class="font-bold">Fencing Helper</span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="mt-16 text-center">
+                <h1 class="text-2xl font-bold">Privacy Policy</h1>
+                <p class="mt-4 text-lg">
+                    We do not collect, store, or share any personal data from
+                    our users. Your privacy is fully protected and no personal
+                    information is gathered through the use of this application.
+                </p>
+            </div>
+        </header>
+    </div>
+</Layout>
